@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.page{
+	max-width: 40%;
+	margin-left: 30%;
+	background-color: #ffffff;
+	padding: 0.3em;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000000;
+	
+}
+li, a{
+	list-style: none;
+	text-decoration: none;
+
+}
+/******************section fellows*/
+.titre1{
+	font-size: 1.5em;
+	text-align: center;
+	color: #8c8888;
+	padding: 1.5em;
+}
+.portrait{
+	background-color: #f5f5f5;
+	padding: 2em;
+	margin: 0.5em;
+	width: 25%;
+	height: 14em;
+}
+.container{
+	display: flex;
+	justify-content: center;	
+}
+/*********************************/
+.nav{
+	background-color: #454343;
+	display: flex;
+	align-items: center;
+	color: #8c8888;
+	font-size: 1.3em;
+	border: solid;
+	border-width: 0.05em;
+}
+.nav-fellows{
+	background-color: #f5f5f5;
+	font-size: 0.5em;
+	padding: 0.9em;
+	padding-left:2em; 
+	padding-right:2em; 
+}
+.nav-find{
+	padding-left: 0.5em;
+	padding-top: 0.2em;
+	padding-right:0.3em; 
+}
+.nav-contact{
+	padding-left: 0.6em;
+	padding-top: 0.2em;
+	
+}
+.carousel{
+	background-color: #f5f5f5;
+	height: 180px;
+}
+/**********************************section contact*/
+.titre2{
+	color: #8c8888;
+	padding: 0.7em 0em 1em 0.7em;
+}
+input{
+	margin-bottom: 1em;
+	padding: 0.2em;
+}
+.contact{
+	color: #8c8888;
+	display: flex;
+	flex-direction: column;
+	margin-left: 4em;
+	margin-right: 4em;
+
+}
+.mail, .tel, .message{
+	border: solid;
+	border-color: #2b2a2a;
+	border-width: 0.08em; 
+}
+/****************section article*/
+.article{
+	margin: 6em;
+}

@@ -77,18 +77,23 @@ li, a{
 input{
 	margin-bottom: 1em;
 	padding: 0.2em;
+	display:block;
 }
 .contact{
 	color: #8c8888;
-	display:grid;	
 	margin-left: 4em;
 	margin-right: 4em;
-
+	overflow: auto;
+	width: 60%;
+}
+.text{
+	width: 100%;
 }
 .mail, .tel, .message{
 	border: solid;
 	border-color: #2b2a2a;
 	border-width: 0.08em; 
+	width: 100%;
 }
 /****************section article*/
 .article{

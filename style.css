@@ -1,13 +1,14 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 .page{
-	max-width: 40%;
+	max-width: 50%;
 	margin-left: 30%;
 	background-color: #ffffff;
 	padding: 0.3em;
-	box-sizing: border-box;
+	
 }
 body{
 	background-color: #000000;
@@ -15,7 +16,7 @@ body{
 }
 li, a{
 	list-style: none;
-	text-decoration: none;
+	text-decoration: none; color:#8c8888;
 
 }
 /******************section fellows*/
@@ -25,33 +26,34 @@ li, a{
 	color: #8c8888;
 	padding: 1.5em;
 }
-.portrait{
-	background-color: #f5f5f5;
-	padding: 2em;
-	margin: 0.5em;
-	width: 25%;
-	height: 14em;
-}
 .container{
-	display: flex;
-	justify-content: center;	
+	text-align: center;
 }
-/*********************************/
+.portrait{
+	display: inline-block;
+	background-color: #f5f5f5;
+	height: 20em;
+	margin-left: 3em;
+	width: 25%;	
+}
+/********************************** NAV ***************/
+.nav-fellows, .nav-find, .nav-contact{
+	display:inline;
+}
 .nav{
 	background-color: #454343;
-	display: flex;
 	align-items: center;
 	color: #8c8888;
 	font-size: 1.3em;
 	border: solid;
 	border-width: 0.05em;
 }
-.nav-fellows{
+.nav-fellows{	
+	font-size: 0.8em;
+	padding-left: 0.5em;
+}
+.nav a:hover{
 	background-color: #f5f5f5;
-	font-size: 0.5em;
-	padding: 0.9em;
-	padding-left:2em; 
-	padding-right:2em; 
 }
 .nav-find{
 	padding-left: 0.5em;
@@ -60,12 +62,12 @@ li, a{
 }
 .nav-contact{
 	padding-left: 0.6em;
-	padding-top: 0.2em;
-	
+	padding-top: 0.2em;	
 }
+/********************************** carousel*/
 .carousel{
 	background-color: #f5f5f5;
-	height: 180px;
+	height: 200px;
 }
 /**********************************section contact*/
 .titre2{
@@ -78,8 +80,7 @@ input{
 }
 .contact{
 	color: #8c8888;
-	display: flex;
-	flex-direction: column;
+	display:grid;	
 	margin-left: 4em;
 	margin-right: 4em;
 
